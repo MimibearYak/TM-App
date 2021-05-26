@@ -1,0 +1,26 @@
+.loading-men.data-v-c2cc8ce0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 200rpx;
+  height: 100rpx;
+  margin: 0 auto;
+  font-size: 20rpx;
+  color: #a7a7a7;
+}
+.loading-men image.data-v-c2cc8ce0 {
+  display: block;
+  width: 60rpx;
+  height: 80rpx;
+}
+

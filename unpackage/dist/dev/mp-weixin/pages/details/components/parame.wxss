@@ -1,0 +1,22 @@
+.parame-view.data-v-b57d604a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+  font-size: 28rpx;
+  border-bottom: 1px solid #f0f0f0;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.parame-view .parame-left.data-v-b57d604a {
+  width: 120rpx;
+  padding-right: 25rpx;
+}
+.parame-view .parame-right.data-v-b57d604a {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+

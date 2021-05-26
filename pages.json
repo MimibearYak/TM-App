@@ -1,0 +1,81 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "详情页",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor":"#FF1B23",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/sort/sort",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/shopping/shopping",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#333",
+		"selectedColor":"#f78e15",
+		"borderStyle":"black",
+		"backgroundColor":"#fff",
+		"list":[
+			{
+			"pagePath":"pages/index/index",
+			"iconPath":"static/tab/tab-a.png",
+			"selectedIconPath":"static/tab/tab-b.png",
+			"text":"首页"
+			},
+			{
+			"pagePath":"pages/sort/sort",
+			"iconPath":"static/tab/tab-c.png",
+			"selectedIconPath":"static/tab/tab-d.png",
+			"text":"分类"
+			},
+			{
+			"pagePath":"pages/shopping/shopping",
+			"iconPath":"static/tab/tab-e.png",
+			"selectedIconPath":"static/tab/tab-f.png",
+			"text":"购物车"
+			},
+			{
+			"pagePath":"pages/my/my",
+			"iconPath":"static/tab/tab-g.png",
+			"selectedIconPath":"static/tab/tab-h.png",
+			"text":"我的"
+			}
+		]
+	}
+}
